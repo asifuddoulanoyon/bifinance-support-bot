@@ -1,0 +1,9 @@
+bifinance-customer-support-bot/
+├── main.py
+├── config.py
+├── database.py
+├── handlers/
+│   ├── user.py
+│   └── agent.py
+├── support.db
+└── requirements.txt
