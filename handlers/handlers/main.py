@@ -27,3 +27,4 @@ app.add_handler(CommandHandler("help", agent.agent_help))
 # Add other agent handlers like takecase, closecase, transfer
 
 app.run_polling()
+print("DEBUG:", update.effective_user.id, update.message.text)
